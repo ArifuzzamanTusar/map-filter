@@ -5,20 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 </head>
 
 <body>
-    <label for="country">Country:</label>
-    <select id="country">
-    </select>
-
-    <label for="state">State:</label>
-    <select id="state">
-    </select>
 
 
+    <div class="stackf-map-filter">
+
+
+        <div class="map-filter-form-group">
+            <div class="flex-inner">
+                <div class="country-wraper">
+                    <label for="country">Select Country:</label>
+                    <select id="country">
+                    </select>
+                </div>
+                <div class="state-wrapper">
+                    <label for="state">Select Location:</label>
+                    <select id="state">
+                    </select>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -26,332 +39,339 @@
 
 
 
-    <!-- ==================== -->
 
-    <div class="state-datas">
-        <!-- Alabama -->
-        <div id="alabama">
-            <h2>alabama</h2>
-            <section class="address_single">
+
+
+
+        <!-- ==================== -->
+
+        <div class="state-datas">
+            <!-- Alabama -->
+            <div id="alabama">
+                <h2 class="location-title">alabama</h2>
+                <section class="address_single">
                     <h3>Steve Gibbs</h3>
+                    <p>DSA</p>
                     <p><a href="mailto:steve@dsa-atl.com">steve@dsa-atl.com</a></p>
                     <p><a href="tel:404-218-9911">404-218-9911</a></p>
-                    <p><a href="https://dsa-atl.com/">DSA: https://dsa-atl.com/</a></p>
-            </section>
-            <section class="address_single">
-                <h3>Steve Gibbs</h3>
-                <p><a href="mailto:steve@dsa-atl.com">steve@dsa-atl.com</a></p>
-                <p><a href="tel:404-218-9911">404-218-9911</a></p>
-                <p><a href="https://dsa-atl.com/">DSA: https://dsa-atl.com/</a></p>
-        </section>
+                    <p><a href="https://dsa-atl.com/">https://dsa-atl.com/</a></p>
+                </section>
+                <section class="address_single">
+                    <h3>Steve Gibbs</h3>
+                    <p>DSA</p>
+                    <p><a href="mailto:steve@dsa-atl.com">steve@dsa-atl.com</a></p>
+                    <p><a href="tel:404-218-9911">404-218-9911</a></p>
+                    <p><a href="https://dsa-atl.com/">https://dsa-atl.com/</a></p>
+                </section>
+            </div>
+
+            <!-- Tennessee -->
+            <div id="tennessee">
+                <h2 class="location-title">tennessee</h2>
+            </div>
+
+            <!-- Georgia -->
+            <div id="georgia">
+                <h2 class="location-title">georgia</h2>
+            </div>
+
+            <!-- Florida -->
+            <div id="florida">
+                <h2 class="location-title">florida</h2>
+            </div>
+
+            <!-- North Carolina -->
+            <div id="north-carolina">
+                <h2 class="location-title">north-carolina</h2>
+            </div>
+
+            <!-- Texas -->
+            <div id="texas">
+                <h2 class="location-title">texas</h2>
+            </div>
+
+            <!-- Louisiana -->
+            <div id="louisiana">
+                <h2 class="location-title">louisiana</h2>
+            </div>
+
+            <!-- Oklahoma -->
+            <div id="oklahoma">
+                <h2 class="location-title">oklahoma</h2>
+            </div>
+
+            <!-- Arkansas -->
+            <div id="arkansas">
+                <h2 class="location-title">arkansas</h2>
+            </div>
+
+            <!-- Missouri -->
+            <div id="missouri">
+                <h2 class="location-title">missouri</h2>
+            </div>
+
+            <!-- Kansas -->
+            <div id="kansas">
+                <h2 class="location-title">kansas</h2>
+            </div>
+
+            <!-- Nebraska -->
+            <div id="nebraska">
+                <h2 class="location-title">nebraska</h2>
+            </div>
+
+            <!-- Iowa -->
+            <div id="iowa">
+                <h2 class="location-title">iowa</h2>
+            </div>
+
+            <!-- Minnesota -->
+            <div id="minnesota">
+                <h2 class="location-title">minnesota</h2>
+            </div>
+
+            <!-- South Dakota -->
+            <div id="south-dakota">
+                <h2 class="location-title">south-dakota</h2>
+            </div>
+
+            <!-- North Dakota -->
+            <div id="north-dakota">
+                <h2 class="location-title">north-dakota</h2>
+            </div>
+
+            <!-- Wisconsin -->
+            <div id="wisconsin">
+                <h2 class="location-title">wisconsin</h2>
+            </div>
+
+            <!-- Illinois -->
+            <div id="illinois">
+                <h2 class="location-title">illinois</h2>
+            </div>
+
+            <!-- Michigan -->
+            <div id="michigan">
+                <h2 class="location-title">michigan</h2>
+            </div>
+
+            <!-- Ohio -->
+            <div id="ohio">
+                <h2 class="location-title">ohio</h2>
+            </div>
+
+            <!-- Kentucky -->
+            <div id="kentucky">
+                <h2 class="location-title">kentucky</h2>
+            </div>
+
+            <!-- Indiana -->
+            <div id="indiana">
+                <h2 class="location-title">indiana</h2>
+            </div>
+
+            <!-- Virginia -->
+            <div id="virginia">
+                <h2 class="location-title">virginia</h2>
+            </div>
+
+            <!-- West Virginia -->
+            <div id="west-virginia">
+                <h2 class="location-title">west-virginia</h2>
+            </div>
+
+            <!-- Pennsylvania -->
+            <div id="pennsylvania">
+                <h2 class="location-title">pennsylvania</h2>
+            </div>
+
+            <!-- Maryland -->
+            <div id="maryland">
+                <h2 class="location-title">maryland</h2>
+            </div>
+
+            <!-- Delaware -->
+            <div id="delaware">
+                <h2 class="location-title">delaware</h2>
+            </div>
+
+            <!-- New York -->
+            <div id="new-york">
+                <h2 class="location-title">new-york</h2>
+            </div>
+
+            <!-- New Jersey -->
+            <div id="new-jersey">
+                <h2 class="location-title">new-jersey</h2>
+            </div>
+
+            <!-- Connecticut -->
+            <div id="connecticut">
+                <h2 class="location-title">connecticut</h2>
+            </div>
+
+            <!-- Colorado -->
+            <div id="colorado">
+                <h2 class="location-title">colorado</h2>
+            </div>
+
+            <!-- Wyoming -->
+            <div id="wyoming">
+                <h2 class="location-title">wyoming</h2>
+            </div>
+
+            <!-- Utah -->
+            <div id="utah">
+                <h2 class="location-title">utah</h2>
+            </div>
+
+            <!-- Arizona -->
+            <div id="arizona">
+                <h2 class="location-title">arizona</h2>
+            </div>
+
+            <!-- North California -->
+            <div id="north-california">
+                <h2 class="location-title">north-california</h2>
+            </div>
+
+            <!-- North Nevada -->
+            <div id="north-nevada">
+                <h2 class="location-title">north-nevada</h2>
+            </div>
+
+            <!-- South and Central California -->
+            <div id="south-and-central-california">
+                <h2 class="location-title">south-and-central-california</h2>
+            </div>
+
+            <!-- Nevada, Vegas -->
+            <div id="nevada-vegas">
+                <h2 class="location-title">nevada-vegas</h2>
+            </div>
+
+            <!-- Washington -->
+            <div id="washington">
+                <h2 class="location-title">washington</h2>
+            </div>
+
+            <!-- Alaska -->
+            <div id="alaska">
+                <h2 class="location-title">alaska</h2>
+            </div>
+
+            <!-- Hawaii -->
+            <div id="hawaii">
+                <h2 class="location-title">hawaii</h2>
+            </div>
+
+            <!-- Oregon -->
+            <div id="oregon">
+                <h2 class="location-title">oregon</h2>
+            </div>
+
+            <!-- Montana -->
+            <div id="montana">
+                <h2 class="location-title">montana</h2>
+            </div>
+
+            <!-- Massachusetts -->
+            <div id="massachusetts">
+                <h2 class="location-title">massachusetts</h2>
+            </div>
+
+            <!-- Rhode Island -->
+            <div id="rhode-island">
+                <h2 class="location-title">rhode-island</h2>
+            </div>
+
+            <!-- Vermont -->
+            <div id="vermont">
+                <h2 class="location-title">vermont</h2>
+            </div>
+
+            <!-- Maine -->
+            <div id="maine">
+                <h2 class="location-title">maine</h2>
+            </div>
+
+            <!-- New Hampshire -->
+            <div id="new-hampshire">
+                <h2 class="location-title">new-hampshire</h2>
+            </div>
+
+            <!-- British Columbia -->
+            <div id="british-columbia">
+                <h2 class="location-title">british-columbia</h2>
+            </div>
+
+            <!-- Alberta -->
+            <div id="alberta">
+                <h2 class="location-title">alberta</h2>
+            </div>
+
+            <!-- Saskatchewan -->
+            <div id="saskatchewan">
+                <h2 class="location-title">saskatchewan</h2>
+            </div>
+
+            <!-- Manitoba -->
+            <div id="manitoba">
+                <h2 class="location-title">manitoba</h2>
+            </div>
+
+            <!-- South Western Ontario -->
+            <div id="south-western-ontario">
+                <h2 class="location-title">south-western-ontario</h2>
+            </div>
+
+            <!-- Southern Ontario -->
+            <div id="southern-ontario">
+                <h2 class="location-title">southern-ontario</h2>
+            </div>
+
+            <!-- Ontario, Greater Toronto Area -->
+            <div id="ontario-greater-toronto-area">
+                <h2 class="location-title">ontario-greater-toronto-area</h2>
+            </div>
+
+            <!-- Eastern Ontario -->
+            <div id="eastern-ontario">
+                <h2 class="location-title">eastern-ontario</h2>
+            </div>
+
+            <!-- Northern Ontario -->
+            <div id="northern-ontario">
+                <h2 class="location-title">northern-ontario</h2>
+            </div>
+
+            <!-- Quebec -->
+            <div id="quebec">
+                <h2 class="location-title">quebec</h2>
+            </div>
+
+            <!-- New Brunswick -->
+            <div id="new-brunswick">
+                <h2 class="location-title">new-brunswick</h2>
+            </div>
+
+            <!-- Nova Scotia -->
+            <div id="nova-scotia">
+                <h2 class="location-title">nova-scotia</h2>
+            </div>
+
+            <!-- PEI -->
+            <div id="pei">
+                <h2 class="location-title">pei</h2>
+            </div>
+
+            <!-- Newfoundland and Labrador -->
+            <div id="newfoundland-and-labrador">
+                <h2 class="location-title">newfoundland-and-labrador</h2>
+            </div>
         </div>
 
-        <!-- Tennessee -->
-        <div id="tennessee">
-            <h2>tennessee</h2>
-        </div>
-
-        <!-- Georgia -->
-        <div id="georgia">
-            <h2>georgia</h2>
-        </div>
-
-        <!-- Florida -->
-        <div id="florida">
-            <h2>florida</h2>
-        </div>
-
-        <!-- North Carolina -->
-        <div id="north-carolina">
-            <h2>north-carolina</h2>
-        </div>
-
-        <!-- Texas -->
-        <div id="texas">
-            <h2>texas</h2>
-        </div>
-
-        <!-- Louisiana -->
-        <div id="louisiana">
-            <h2>louisiana</h2>
-        </div>
-
-        <!-- Oklahoma -->
-        <div id="oklahoma">
-            <h2>oklahoma</h2>
-        </div>
-
-        <!-- Arkansas -->
-        <div id="arkansas">
-            <h2>arkansas</h2>
-        </div>
-
-        <!-- Missouri -->
-        <div id="missouri">
-            <h2>missouri</h2>
-        </div>
-
-        <!-- Kansas -->
-        <div id="kansas">
-            <h2>kansas</h2>
-        </div>
-
-        <!-- Nebraska -->
-        <div id="nebraska">
-            <h2>nebraska</h2>
-        </div>
-
-        <!-- Iowa -->
-        <div id="iowa">
-            <h2>iowa</h2>
-        </div>
-
-        <!-- Minnesota -->
-        <div id="minnesota">
-            <h2>minnesota</h2>
-        </div>
-
-        <!-- South Dakota -->
-        <div id="south-dakota">
-            <h2>south-dakota</h2>
-        </div>
-
-        <!-- North Dakota -->
-        <div id="north-dakota">
-            <h2>north-dakota</h2>
-        </div>
-
-        <!-- Wisconsin -->
-        <div id="wisconsin">
-            <h2>wisconsin</h2>
-        </div>
-
-        <!-- Illinois -->
-        <div id="illinois">
-            <h2>illinois</h2>
-        </div>
-
-        <!-- Michigan -->
-        <div id="michigan">
-            <h2>michigan</h2>
-        </div>
-
-        <!-- Ohio -->
-        <div id="ohio">
-            <h2>ohio</h2>
-        </div>
-
-        <!-- Kentucky -->
-        <div id="kentucky">
-            <h2>kentucky</h2>
-        </div>
-
-        <!-- Indiana -->
-        <div id="indiana">
-            <h2>indiana</h2>
-        </div>
-
-        <!-- Virginia -->
-        <div id="virginia">
-            <h2>virginia</h2>
-        </div>
-
-        <!-- West Virginia -->
-        <div id="west-virginia">
-            <h2>west-virginia</h2>
-        </div>
-
-        <!-- Pennsylvania -->
-        <div id="pennsylvania">
-            <h2>pennsylvania</h2>
-        </div>
-
-        <!-- Maryland -->
-        <div id="maryland">
-            <h2>maryland</h2>
-        </div>
-
-        <!-- Delaware -->
-        <div id="delaware">
-            <h2>delaware</h2>
-        </div>
-
-        <!-- New York -->
-        <div id="new-york">
-            <h2>new-york</h2>
-        </div>
-
-        <!-- New Jersey -->
-        <div id="new-jersey">
-            <h2>new-jersey</h2>
-        </div>
-
-        <!-- Connecticut -->
-        <div id="connecticut">
-            <h2>connecticut</h2>
-        </div>
-
-        <!-- Colorado -->
-        <div id="colorado">
-            <h2>colorado</h2>
-        </div>
-
-        <!-- Wyoming -->
-        <div id="wyoming">
-            <h2>wyoming</h2>
-        </div>
-
-        <!-- Utah -->
-        <div id="utah">
-            <h2>utah</h2>
-        </div>
-
-        <!-- Arizona -->
-        <div id="arizona">
-            <h2>arizona</h2>
-        </div>
-
-        <!-- North California -->
-        <div id="north-california">
-            <h2>north-california</h2>
-        </div>
-
-        <!-- North Nevada -->
-        <div id="north-nevada">
-            <h2>north-nevada</h2>
-        </div>
-
-        <!-- South and Central California -->
-        <div id="south-and-central-california">
-            <h2>south-and-central-california</h2>
-        </div>
-
-        <!-- Nevada, Vegas -->
-        <div id="nevada-vegas">
-            <h2>nevada-vegas</h2>
-        </div>
-
-        <!-- Washington -->
-        <div id="washington">
-            <h2>washington</h2>
-        </div>
-
-        <!-- Alaska -->
-        <div id="alaska">
-            <h2>alaska</h2>
-        </div>
-
-        <!-- Hawaii -->
-        <div id="hawaii">
-            <h2>hawaii</h2>
-        </div>
-
-        <!-- Oregon -->
-        <div id="oregon">
-            <h2>oregon</h2>
-        </div>
-
-        <!-- Montana -->
-        <div id="montana">
-            <h2>montana</h2>
-        </div>
-
-        <!-- Massachusetts -->
-        <div id="massachusetts">
-            <h2>massachusetts</h2>
-        </div>
-
-        <!-- Rhode Island -->
-        <div id="rhode-island">
-            <h2>rhode-island</h2>
-        </div>
-
-        <!-- Vermont -->
-        <div id="vermont">
-            <h2>vermont</h2>
-        </div>
-
-        <!-- Maine -->
-        <div id="maine">
-            <h2>maine</h2>
-        </div>
-
-        <!-- New Hampshire -->
-        <div id="new-hampshire">
-            <h2>new-hampshire</h2>
-        </div>
-
-        <!-- British Columbia -->
-        <div id="british-columbia">
-            <h2>british-columbia</h2>
-        </div>
-
-        <!-- Alberta -->
-        <div id="alberta">
-            <h2>alberta</h2>
-        </div>
-
-        <!-- Saskatchewan -->
-        <div id="saskatchewan">
-            <h2>saskatchewan</h2>
-        </div>
-
-        <!-- Manitoba -->
-        <div id="manitoba">
-            <h2>manitoba</h2>
-        </div>
-
-        <!-- South Western Ontario -->
-        <div id="south-western-ontario">
-            <h2>south-western-ontario</h2>
-        </div>
-
-        <!-- Southern Ontario -->
-        <div id="southern-ontario">
-            <h2>southern-ontario</h2>
-        </div>
-
-        <!-- Ontario, Greater Toronto Area -->
-        <div id="ontario-greater-toronto-area">
-            <h2>ontario-greater-toronto-area</h2>
-        </div>
-
-        <!-- Eastern Ontario -->
-        <div id="eastern-ontario">
-            <h2>eastern-ontario</h2>
-        </div>
-
-        <!-- Northern Ontario -->
-        <div id="northern-ontario">
-            <h2>northern-ontario</h2>
-        </div>
-
-        <!-- Quebec -->
-        <div id="quebec">
-            <h2>quebec</h2>
-        </div>
-
-        <!-- New Brunswick -->
-        <div id="new-brunswick">
-            <h2>new-brunswick</h2>
-        </div>
-
-        <!-- Nova Scotia -->
-        <div id="nova-scotia">
-            <h2>nova-scotia</h2>
-        </div>
-
-        <!-- PEI -->
-        <div id="pei">
-            <h2>pei</h2>
-        </div>
-
-        <!-- Newfoundland and Labrador -->
-        <div id="newfoundland-and-labrador">
-            <h2>newfoundland-and-labrador</h2>
-        </div>
     </div>
-
 </body>
 
 <script src="app.js"></script>

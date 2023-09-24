@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-Black.otf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-BlackItalic.otf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-Bold.otf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-BoldItalic.otf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-Book.otf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-BookItalic.otf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-ExtraBold.otf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-ExtraBoldItalic.otf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+/* @font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-ExtrasBoxHeadings.otf") format("truetype");
+    font-weight: book;
+    font-style: normal;
+} */
+/* @font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-ExtrasLabels.otf") format("truetype");
+    font-weight: book;
+    font-style: normal;
+} */
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-Italic.otf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-Light.otf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-LightItalic.otf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-Regular.otf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-SemiBold.otf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "kopius";
+    src: url("fonts/kopius/Kopius-SemiBoldItalic.otf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
